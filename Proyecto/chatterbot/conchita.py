@@ -41,7 +41,7 @@ DEFAULT_SESSION_ID = chatbot.default_session.id
 from chatterbot.trainers import chatterbotCorpusTrainer
 
 chatbot.set_trainer(chatterbotCorpusTrainer)
-chatbot.train("C:\Data\chatbot\Proyecto\.conchita_ES.yml")
+chatbot.train("conchita_ES.yml")
 
 while True:
     input_statement = chatbot.input_process_input_statement()
